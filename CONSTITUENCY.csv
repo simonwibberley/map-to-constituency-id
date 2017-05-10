@@ -609,7 +609,7 @@ PANO,Constituency Name,Constituency ID,Constituency Type,Electorate,Valid Votes,
 533,Stirling,S14000057,County,67236,52135,,S92000003,Scotland,Scotland,Scotland
 5,West Aberdeenshire and Kincardine,S14000058,County,73445,55196,,S92000003,Scotland,Scotland,Scotland
 210,West Dunbartonshire,S14000059,County,69208,51141,,S92000003,Scotland,Scotland,Scotland
-647,Ynys M™n,W07000041,County,49939,34926,,W92000004,Gwynedd,Wales,Wales
+647,Ynys Mªn,W07000041,County,49939,34926,,W92000004,Gwynedd,Wales,Wales
 179,Delyn,W07000042,County,53639,37457,,W92000004,Clwyd,Wales,Wales
 10,Alyn and Deeside,W07000043,County,62016,41314,,W92000004,Clwyd,Wales,Wales
 641,Wrexham,W07000044,County,50992,32719,,W92000004,Clwyd,Wales,Wales
@@ -649,5 +649,3 @@ PANO,Constituency Name,Constituency ID,Constituency Type,Electorate,Valid Votes,
 589,Vale of Glamorgan,W07000078,County,72794,51293,,W92000004,South Glamorgan,Wales,Wales
 129,Cardiff West,W07000079,Borough,66762,43792,,W92000004,South Glamorgan,Wales,Wales
 128,Cardiff South and Penarth,W07000080,Borough,76006,46667,,W92000004,South Glamorgan,Wales,Wales
-,,,,,,,,,,
-,,,,46354197,30697525,,,,,

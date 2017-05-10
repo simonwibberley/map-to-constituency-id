@@ -19,15 +19,17 @@ def add_constituency_id(target_csv, target_col, output_file) :
     with open(target_csv, 'r', encoding=encoding) as csv_input:
         reader = csv.DictReader(csv_input)
         with open(output_file, 'w') as csv_output:
-            writer = csv.DictWriter(csv_output, reader.fieldnames + ['constituency_id'])
+            writer = csv.DictWriter(csv_output, reader.fieldnames + ['constituency_id', 'pano_id'])
             writer.writeheader()
             for row in reader:
                 target_val = row[target_col]
                 constituency_entry = get_closest(target_val)
                 constituency_id = constituency_entry['Constituency ID']
+                pano_id = constituency_entry['PANO']
                 if constituency_id in used:
                     raise Exception("%s : %s already resolved to %s" % (constituency_id , target_val, used[constituency_id]))
                 row['constituency_id'] = constituency_id
+                row['pano_id'] = pano_id
                 used[constituency_id] = target_val
                 writer.writerow(row)
 
